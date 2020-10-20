@@ -1,0 +1,89 @@
+﻿/* body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input,
+textarea {
+  font-size: 18px;
+  width: 200px;
+}
+
+input[type='submit'] {
+  width: auto;
+}
+
+label {
+  font-size: 16px;
+}
+
+#the-form {
+  background-color: #d0d0d0;
+}
+
+#the-form input[type='submit'] {
+  background-color: green;
+  color: #fff;
+}
+
+.product-props {
+  font-size: small;
+}
+
+.product-props li {
+  list-style-type: none;
+}
+
+.product-info {
+  background-color: lightgray;
+  border: 1px solid grey;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  padding: 8px 2px;
+  width: 450px;
+}
+
+.product-info img {
+  border: 1px solid black;
+  float: left;
+  margin: 3px;
+  max-width: 150px;
+}
+
+#login-toggle {
+  cursor: pointer;
+}
+
+.popup-form {
+  border: 2px black inset;
+  display: inline-block;
+  padding: 5px;
+}
+
+.popup-form input {
+  width: 200px;
+}
+
+.popup-form label {
+  width: 150px;
+  display: inline-block;
+}
+
+.popup-form input[type='checkbox'],
+.popup-form input[type='submit'] {
+  width: auto;
+} */
+
+/* Only direct children ( > ) */
+/* menu > ul > li {
+  display: inline;
+}
+
+menu > ul > li::after {
+  content: ' |';
+}
+
+menu > ul > li:last-of-type::after {
+  content: '';
+} */
