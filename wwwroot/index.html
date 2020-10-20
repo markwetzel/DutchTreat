@@ -3,6 +3,7 @@
 <head>
 	<title>Dutch Treat</title>
 	<link href="css/site.css" rel="stylesheet" />
+
 </head>
 <body>
 	<h1>Dutch Treat</h1>
@@ -15,7 +16,7 @@
 			<li>Title: </li>
 			<li>Description: Self-portrait</li>
 		</ul>
-		<button>Buy</button>
+		<button id="buy-button">Buy</button>
 	</div>
 
 	<div id="the-form">
@@ -39,5 +40,28 @@
 			<input type="submit" value="Send Message" />
 		</form>
 	</div>
+
+	<div>
+		<div id="login-toggle">Login</div>
+		<form class="popup-form">
+			<div>
+				<label>Username</label>
+				<input />
+			</div>
+			<div>
+				<label>Password</label>
+				<input type="password" />
+			</div>
+			<div>
+				<input type="checkbox" />
+				<label>Remember Me</label>
+			</div>
+			<div>
+				<input type="submit" value="Login" />
+			</div>
+		</form>
+	</div>
+	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>

@@ -7,9 +7,9 @@ input, textarea {
 	width: 200px;
 }
 
-	input[type=submit] {
-		width: auto;
-	}
+input[type=submit] {
+	width: auto;
+}
 
 label {
 	font-size: 16px;
@@ -19,20 +19,18 @@ label {
 	background-color: #d0d0d0;
 }
 
-	#the-form input[type=submit] {
-		background-color: green;
-		color: #fff;
-	}
-
+#the-form input[type=submit] {
+	background-color: green;
+	color: #fff;
+}
 
 .product-props {
 	font-size: small;
 }
 
-	.product-props li {
-		list-style-type: none;
-	}
-
+.product-props li {
+	list-style-type: none;
+}
 
 .product-info {
 	background-color: lightgray;
@@ -45,9 +43,32 @@ label {
 	width: 450px;
 }
 
-	.product-info img {
-		border: 1px solid black;
-		float: left;
-		margin: 3px;
-		max-width: 150px;
-	}
+.product-info img {
+	border: 1px solid black;
+	float: left;
+	margin: 3px;
+	max-width: 150px;
+}
+
+#login-toggle {
+	cursor: pointer;
+}
+
+.popup-form {
+	border: 2px black inset;
+	display: inline-block;
+	padding: 5px;
+}
+
+.popup-form input {
+	width: 200px;
+}
+
+.popup-form label {
+	width: 150px;
+	display: inline-block;
+}
+
+.popup-form input[type=checkbox], .popup-form input[type=submit] {
+	width: auto;
+}
