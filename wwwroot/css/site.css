@@ -1,4 +1,4 @@
-﻿body {
+﻿/* body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -73,10 +73,10 @@ label {
 .popup-form input[type='checkbox'],
 .popup-form input[type='submit'] {
   width: auto;
-}
+} */
 
 /* Only direct children ( > ) */
-menu > ul > li {
+/* menu > ul > li {
   display: inline;
 }
 
@@ -86,4 +86,4 @@ menu > ul > li::after {
 
 menu > ul > li:last-of-type::after {
   content: '';
-}
+} */
