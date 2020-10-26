@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "DutchConnectionString": "server=AXP-DEV-WETZEL;Database=DutchTreatDb;Integrated Security=true;MultipleActiveResultSets=true;"
+    "DutchConnectionString": "server=Gibson;Database=DutchTreatDb;Integrated Security=true;MultipleActiveResultSets=true;"
   },
   "Logging": {
     "LogLevel": {
