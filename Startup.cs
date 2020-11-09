@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using AutoMapper;
 using DutchTreat.Data;
 using DutchTreat.Services;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +33,8 @@ namespace DutchTreat {
             });
 
             services.AddTransient<DutchSeeder> ();
+
+            services.AddAutoMapper (Assembly.GetExecutingAssembly ());
 
             // Add support for real mail service later
             services.AddTransient<IMailService, NullMailService> ();
