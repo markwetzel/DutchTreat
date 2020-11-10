@@ -18,14 +18,19 @@ namespace DutchTreat.Data {
             _context.Add (model);
         }
 
-        public IEnumerable<Order> GetAllOrders () {
+        public IEnumerable<Order> GetAllOrders (bool includeItems) {
             _logger.LogInformation ("GetAllOrders was called");
             try {
 
-                return _context.Orders
-                    .Include (o => o.Items)
-                    .ThenInclude (i => i.Product)
-                    .ToList ();
+                if (includeItems) {
+                    return _context.Orders
+                        .Include (o => o.Items)
+                        .ThenInclude (i => i.Product)
+                        .ToList ();
+                } else {
+                    return _context.Orders.ToList ();
+                }
+
             } catch (Exception ex) {
                 _logger.LogError ($"Failed to get all orders: {ex}");
                 return null;
